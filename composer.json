@@ -1,0 +1,16 @@
+{
+    "name": "spiros/composer_tests",
+    "description": "This is a package to test out composer stuff",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Spiros Zermalias",
+            "email": "me@spiroszermalias.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : { "Admin\\" : "src/classes" }
+    },
+    "require": {}
+}
